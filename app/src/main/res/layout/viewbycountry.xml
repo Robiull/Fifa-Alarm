@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1100"
+        android:background="#1ae6d2"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Argentina"
+            android:layout_weight="100"
+            android:background="#c83737"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Australia"
+            android:layout_weight="100"
+            android:background="#b33a3a"
+            />
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brasil"
+            android:layout_weight="100"
+            android:background="#d44747"
+        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Balgiam"
+            android:layout_weight="100"
+            android:background="#cc5656"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Costa rica"
+            android:layout_weight="100"
+            android:background="#d25050"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Denmark"
+            android:layout_weight="100"
+            android:background="#e16060"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="France"
+            android:layout_weight="100"
+            android:background="#d24949"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iceland"
+            android:layout_weight="100"
+            android:background="#cf3939"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rassia"
+            android:layout_weight="100"
+            android:background="#db4f4f"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swiden"
+            android:layout_weight="100"
+            android:background="#f55c5c"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swizerland"
+            android:layout_weight="100"
+            android:background="#c95757"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/menupanel"
+        android:background="#000000"
+        >
+        <Button
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Seduling"
+            android:textColor="#fff"
+            android:background="#e10b72d3"
+            android:layout_weight="100"
+            android:onClick="ChangeFragment"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="History"
+            android:background="#e10b72d3"
+            android:layout_weight="100"
+            android:textColor="#fff"
+            android:onClick="ChangeFragment"
+            android:id="@+id/historybutton"
+            />
+
+        <Button
+            android:id="@+id/group"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Groups"
+            android:background="#e10b72d3"
+            android:layout_weight="100"
+            android:textColor="#fff"
+            android:onClick="ChangeFragment"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Alarm"
+            android:background="#e10b72d3"
+            android:layout_weight="100"
+            android:textColor="#fff"
+            android:id="@+id/alarmbutton"
+
+            android:onClick="ChangeFragment"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menupanel"
+        >
+        <fragment
+            android:name="offline_1.sdlab.com.fifaalarm.Home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragments_place"
+
+            ></fragment>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

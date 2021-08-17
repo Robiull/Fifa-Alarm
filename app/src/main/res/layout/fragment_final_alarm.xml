@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Finalalarm">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+
+            >
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:id="@+id/switch1"
+                android:text="Alarm"
+                android:textSize="50dp"
+                android:switchPadding="50dp"
+                android:switchMinWidth="50dp"
+
+
+                />
+        </LinearLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <Switch
+                   android:layout_width="wrap_content"
+                   android:layout_height="100dp"
+                   android:id="@+id/switch2"
+                   android:text="Set Database"
+                   android:textSize="40dp"
+                   android:switchPadding="5dp"
+                   android:switchMinWidth="5dp"
+                   />
+           </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
